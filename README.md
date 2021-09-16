@@ -8,6 +8,21 @@
 
 &nbsp;정리의 용이함과 차후 블로그로의 확장 등을 위해 IPython Notebook 파일로 정리합니다.
 
+### 이 문서의 기본 사항
+- 리트코드 기본 라이브러리를 항상 불러올 것(주피터 기본 기능은 안 씀. 까먹을 수 있으니까!)
+```
+import collections
+import heapq
+import functools
+import itertools
+import re
+import sys
+import math
+import bisect
+from typing import *
+```
+- class-method 형태가 아닌 함수 형태로 풀이 작성 
+
 ## 관련 링크
 - 파이썬 알고리즘 인터뷰 책 소개: https://www.onlybook.co.kr/entry/algorithm-interview
 - 파이썬 알고리즘 인터뷰 GitHub 저장소: https://github.com/onlybooks/algorithm-interview
